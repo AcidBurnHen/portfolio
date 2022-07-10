@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #171D20;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: "GoblinOne";
+  src: local("GoblinOne"), url("./fonts/Goblin_One/GoblinOne-Regular.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "GrapeNuts";
+  src: local("GrapeNuts"), url("./fonts/Grape_Nuts/GrapeNuts-Regular.ttf");
+  font-weight: normal;
+}
+
+.container {
+  margin-left: 7.5rem;
+  width: 85%;
 }

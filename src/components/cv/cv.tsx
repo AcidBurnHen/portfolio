@@ -1,9 +1,10 @@
 import React from "react";
+import "./cv.scss";
 
 class CV extends React.Component {
     render() {
         return (
-            <div>
+            <div className="cv container">
                 CV
             </div>
         )

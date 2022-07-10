@@ -1,9 +1,10 @@
 import React from "react";
+import "./contact.scss";
 
 class Contact extends React.Component {
     render() {
         return (
-            <div>
+            <div className="contact container">
                 Contact
             </div>
         )

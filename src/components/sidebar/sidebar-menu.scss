@@ -1,5 +1,5 @@
 .sidebar-menu {
-    width: 6.25rem;
+    width: 7.5rem;
     display: grid;
     grid-template-rows: repeat(5, 1fr);
     height: 15rem;
@@ -7,9 +7,17 @@
     justify-content: center;
     margin-top: 5rem;
 
+    &__active {
+        border: 1px solid #6bffff;
+        padding: 5px 10px;
+        opacity: 100% !important;
+    }
+
     a {
         color: white;
         text-decoration: none;
         text-align: center;
+        opacity: 60%;
     }
+
 }

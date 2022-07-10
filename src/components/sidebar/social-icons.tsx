@@ -6,12 +6,12 @@ class SocialIcons extends React.Component {
     render() {
         return (
             <div className="social-icons">
-                <div className="social-icons__github" >
+                <a href="https://github.com/AcidBurnHen" rel="noreferrer" target="_blank" className="social-icons__github" >
                 <BsGithub  />
-                </div>
-                <div className="social-icons__linkedin">
+                </a>
+                <a href="https://www.linkedin.com/in/marin-luic/" rel="noreferrer" target="_blank"  className="social-icons__linkedin">
                 <BsLinkedin />
-                </div>
+                </a>
             </div>
         )
     }

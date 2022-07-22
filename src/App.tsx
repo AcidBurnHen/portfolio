@@ -2,7 +2,7 @@
 import {Routes, Route} from "react-router-dom";
 
 // Components
-import Home from "./components/home/home";
+import HomePage from "./components/home/HomePage";
 import Sidebar from "./components/sidebar/sidebar";
 import AboutMe from "./components/about-me/about-me";
 import Projects from "./components/my-projects/projects";
@@ -16,7 +16,7 @@ function App() {
     <div>
       <Sidebar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/about-me" element={<AboutMe />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />

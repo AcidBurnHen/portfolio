@@ -21,3 +21,5 @@
 - Written tests for the HomePage component with RTL and Jest
 - I decided to add animation to the text effect
 - Used typedjs, useEffect and setTimeout to do it.
+- Removed setTimeout from the functions because Typed already provides startDelay option
+- Added particles effect to the background

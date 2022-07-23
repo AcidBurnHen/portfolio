@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #171D20;
+  background-color: #171d20;
 }
 
 code {
@@ -14,14 +14,21 @@ code {
 }
 
 @font-face {
-  font-family: "GoblinOne";
-  src: local("GoblinOne"), url("./fonts/Goblin_One/GoblinOne-Regular.ttf");
+  font-family: 'GoblinOne';
+  src: local('GoblinOne'), url('./fonts/Goblin_One/GoblinOne-Regular.ttf');
   font-weight: bold;
 }
 
 @font-face {
-  font-family: "GrapeNuts";
-  src: local("GrapeNuts"), url("./fonts/Grape_Nuts/GrapeNuts-Regular.ttf");
+  font-family: 'GrapeNuts';
+  src: local('GrapeNuts'), url('./fonts/Grape_Nuts/GrapeNuts-Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: local('RobotoMono'),
+    url('./fonts//Roboto_Mono/RobotoMono-VariableFont_wght.ttf');
   font-weight: normal;
 }
 

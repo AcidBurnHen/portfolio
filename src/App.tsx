@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import BGParticles from './components/bgparticles/BGParticles';
 import HomePage from './components/home/HomePage';
 import Sidebar from './components/sidebar/sidebar';
-import AboutMe from './components/about-me/about-me';
+import AboutMe from './components/about-me/AboutMe';
 import Projects from './components/my-projects/projects';
 import Skills from './components/skills/skills';
 import CV from './components/cv/cv';

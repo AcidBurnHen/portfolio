@@ -25,15 +25,8 @@ function HomePage() {
       9000
     );
 
-    const handleScroll = (event: any) => {
-      console.log('window.scrollY', event);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
     return () => {
       typed.destroy();
-      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 

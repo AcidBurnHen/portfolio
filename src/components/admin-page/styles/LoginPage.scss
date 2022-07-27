@@ -1,0 +1,55 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 39rem;
+
+  &__form {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    color: white;
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    border: 1px solid rgba($color: white, $alpha: 0.3);
+    padding: 1.5rem 2rem;
+
+    &-title {
+      margin-top: -1.5rem;
+      text-align: center;
+      margin-left: 0.8rem;
+      font-size: 0.8rem;
+    }
+
+    &-email input,
+    &-pass input {
+      margin-top: 0.6rem;
+      color: white;
+      background: transparent;
+      border: none;
+      outline: 1px solid #6bffffaf;
+    }
+
+    &-email input {
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    &-pass input {
+      margin-left: 1.5rem;
+    }
+
+    &-button {
+      border: 1px solid gray;
+      width: 5rem;
+      height: 2rem;
+      justify-self: center;
+      background-color: transparent;
+      color: white;
+      margin-top: 0.7rem;
+
+      &:hover {
+        border: 1px solid #6bffffaf;
+        color: #6bffffaf;
+      }
+    }
+  }
+}

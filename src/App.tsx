@@ -10,6 +10,8 @@ import Projects from './components/my-projects/projects';
 import Skills from './components/skills/skills';
 import CV from './components/cv/cv';
 import Contact from './components/contact/contact';
+import LoginPage from './components/admin-page/LoginPage';
+import AdminPage from './components/admin-page/AdminPage';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Route path='/skills' element={<Skills />} />
         <Route path='/curriculum-vitae' element={<CV />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/login' element={<LoginPage />} />
+        <Route path='/admin' element={<AdminPage />} />
       </Routes>
     </div>
   );

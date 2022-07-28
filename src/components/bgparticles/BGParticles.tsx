@@ -42,10 +42,10 @@ export default function bgParticles() {
         },
         particles: {
           color: {
-            value: '#ffffff',
+            value: '#6bffff',
           },
           links: {
-            color: '#ffffff',
+            color: '#6bffff',
             distance: 150,
             enable: true,
             opacity: 0.2,
@@ -78,7 +78,7 @@ export default function bgParticles() {
             type: 'triangle',
           },
           size: {
-            value: { min: 2, max: 8 },
+            value: { min: 2, max: 6 },
           },
         },
         detectRetina: true,

@@ -12,6 +12,7 @@ import CV from './components/cv/cv';
 import Contact from './components/contact/contact';
 import LoginPage from './components/admin-page/LoginPage';
 import AdminPage from './components/admin-page/AdminPage';
+import BlogPage from './components/blog-page/BlogPage';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/login' element={<LoginPage />} />
         <Route path='/admin' element={<AdminPage />} />
+        <Route path='/blog' element={<BlogPage />} />
       </Routes>
     </div>
   );
